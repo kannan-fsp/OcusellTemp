@@ -66,7 +66,7 @@ public class Collaborate {
 	    	String elementListAttrib = assignList.get(i).getAttribute("class");
 	    	System.out.println("Attribute names are : "+elementListAttrib);
 	    	System.out.println("Element list is as follows: " +elementList);
-	    	Thread.sleep(4000);
+	    	Thread.sleep(5000);
 	    	if(elementListAttrib.equals("active-result highlighted"))
 	    	{
 	    		Thread.sleep(2000);

@@ -12,7 +12,7 @@
         "steps": [
           {
             "result": {
-              "duration": 11368443500,
+              "duration": 11427192100,
               "status": "passed"
             },
             "line": 6,
@@ -24,7 +24,7 @@
           },
           {
             "result": {
-              "duration": 9964474300,
+              "duration": 10414949600,
               "status": "passed"
             },
             "line": 7,
@@ -36,7 +36,7 @@
           },
           {
             "result": {
-              "duration": 6359549200,
+              "duration": 6361701000,
               "status": "passed"
             },
             "line": 8,
@@ -64,8 +64,9 @@
         "steps": [
           {
             "result": {
-              "duration": 2425720300,
-              "status": "passed"
+              "duration": 362701400,
+              "error_message": "java.lang.AssertionError: expected [Login Page | Ocusell | Ocusell] but found [Home Page | Ocusell | Ocusell]\r\n\tat org.testng.Assert.fail(Assert.java:99)\r\n\tat org.testng.Assert.failNotEquals(Assert.java:1037)\r\n\tat org.testng.Assert.assertEqualsImpl(Assert.java:140)\r\n\tat org.testng.Assert.assertEquals(Assert.java:122)\r\n\tat org.testng.Assert.assertEquals(Assert.java:629)\r\n\tat org.testng.Assert.assertEquals(Assert.java:639)\r\n\tat OcusellPack.Login.launch_login_page(Login.java:23)\r\n\tat ✽.Given Launch login page(ocusell.feature:12)\r\n",
+              "status": "failed"
             },
             "line": 12,
             "name": "Launch login page",
@@ -76,8 +77,7 @@
           },
           {
             "result": {
-              "duration": 6118628800,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 13,
             "name": "Verify failure message with incorrect details",
@@ -88,8 +88,7 @@
           },
           {
             "result": {
-              "duration": 96392300,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 14,
             "name": "Verify login page with correct details",
@@ -100,8 +99,7 @@
           },
           {
             "result": {
-              "duration": 8384526600,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 15,
             "name": "Verify success message",
@@ -128,7 +126,7 @@
         "steps": [
           {
             "result": {
-              "duration": 11392600,
+              "duration": 6441900,
               "status": "passed"
             },
             "line": 19,
@@ -140,8 +138,9 @@
           },
           {
             "result": {
-              "duration": 5076677900,
-              "status": "passed"
+              "duration": 32236300,
+              "error_message": "org.openqa.selenium.NoSuchElementException: Unable to locate element: //*[@class\u003d\u0027 active \u0027]//span\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:25:53\u0027\nSystem info: host: \u0027DESKTOP-QS30KNM\u0027, ip: \u0027192.168.0.10\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002715.0.1\u0027\nDriver info: org.openqa.selenium.firefox.FirefoxDriver\nCapabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 88.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20210504152106, moz:geckodriverVersion: 0.28.0, moz:headless: false, moz:processID: 1968, moz:profile: C:\\Users\\FE13264\\AppData\\Lo..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}\nSession ID: 1815a238-161e-4843-8120-6e36a90c0aef\n*** Element info: {Using\u003dxpath, value\u003d//*[@class\u003d\u0027 active \u0027]//span}\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:64)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)\r\n\tat org.openqa.selenium.By$ByXPath.findElement(By.java:353)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\r\n\tat OcusellPack.Dashboard.check_active_counts(Dashboard.java:23)\r\n\tat ✽.When check active counts(ocusell.feature:20)\r\n",
+              "status": "failed"
             },
             "line": 20,
             "name": "check active counts",
@@ -152,8 +151,7 @@
           },
           {
             "result": {
-              "duration": 7180787600,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 21,
             "name": "total counts and confirm the user account",
@@ -180,8 +178,9 @@
         "steps": [
           {
             "result": {
-              "duration": 16114642800,
-              "status": "passed"
+              "duration": 11465900,
+              "error_message": "org.openqa.selenium.NoSuchElementException: Unable to locate element: //*[contains(text(),\u0027Collaborate\u0027)]\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:25:53\u0027\nSystem info: host: \u0027DESKTOP-QS30KNM\u0027, ip: \u0027192.168.0.10\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002715.0.1\u0027\nDriver info: org.openqa.selenium.firefox.FirefoxDriver\nCapabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 88.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20210504152106, moz:geckodriverVersion: 0.28.0, moz:headless: false, moz:processID: 1968, moz:profile: C:\\Users\\FE13264\\AppData\\Lo..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}\nSession ID: 1815a238-161e-4843-8120-6e36a90c0aef\n*** Element info: {Using\u003dxpath, value\u003d//*[contains(text(),\u0027Collaborate\u0027)]}\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:64)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)\r\n\tat org.openqa.selenium.By$ByXPath.findElement(By.java:353)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\r\n\tat OcusellPack.MyCollaboratePage.verify_search_is_working_good(MyCollaboratePage.java:24)\r\n\tat ✽.Given Verify search is working good(ocusell.feature:25)\r\n",
+              "status": "failed"
             },
             "line": 25,
             "name": "Verify search is working good",
@@ -192,8 +191,7 @@
           },
           {
             "result": {
-              "duration": 6626919000,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 26,
             "name": "Verify View and Collaborate link is there",
@@ -204,8 +202,7 @@
           },
           {
             "result": {
-              "duration": 8428507300,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 27,
             "name": "Verify search filter counts are showing correctly",
@@ -232,8 +229,9 @@
         "steps": [
           {
             "result": {
-              "duration": 8806601300,
-              "status": "passed"
+              "duration": 12872800,
+              "error_message": "org.openqa.selenium.NoSuchElementException: Unable to locate element: #clear_all\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:25:53\u0027\nSystem info: host: \u0027DESKTOP-QS30KNM\u0027, ip: \u0027192.168.0.10\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002715.0.1\u0027\nDriver info: org.openqa.selenium.firefox.FirefoxDriver\nCapabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 88.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20210504152106, moz:geckodriverVersion: 0.28.0, moz:headless: false, moz:processID: 1968, moz:profile: C:\\Users\\FE13264\\AppData\\Lo..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}\nSession ID: 1815a238-161e-4843-8120-6e36a90c0aef\n*** Element info: {Using\u003did, value\u003dclear_all}\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:64)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:372)\r\n\tat org.openqa.selenium.By$ById.findElement(By.java:188)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\r\n\tat OcusellPack.ViewCollaborate.goto_view_collaborate_screen(ViewCollaborate.java:19)\r\n\tat ✽.Given Goto view collaborate screen(ocusell.feature:31)\r\n",
+              "status": "failed"
             },
             "line": 31,
             "name": "Goto view collaborate screen",
@@ -244,8 +242,7 @@
           },
           {
             "result": {
-              "duration": 25015600,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 32,
             "name": "Verify firstname and lastname of the user",
@@ -256,8 +253,7 @@
           },
           {
             "result": {
-              "duration": 21055500,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 33,
             "name": "Verify listing assigned for that user",
@@ -268,8 +264,7 @@
           },
           {
             "result": {
-              "duration": 2251934500,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 34,
             "name": "Close the window",
@@ -296,8 +291,9 @@
         "steps": [
           {
             "result": {
-              "duration": 7639403500,
-              "status": "passed"
+              "duration": 7453600,
+              "error_message": "org.openqa.selenium.NoSuchElementException: Unable to locate element: #clear_all\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:25:53\u0027\nSystem info: host: \u0027DESKTOP-QS30KNM\u0027, ip: \u0027192.168.0.10\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002715.0.1\u0027\nDriver info: org.openqa.selenium.firefox.FirefoxDriver\nCapabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 88.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20210504152106, moz:geckodriverVersion: 0.28.0, moz:headless: false, moz:processID: 1968, moz:profile: C:\\Users\\FE13264\\AppData\\Lo..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}\nSession ID: 1815a238-161e-4843-8120-6e36a90c0aef\n*** Element info: {Using\u003did, value\u003dclear_all}\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:64)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:372)\r\n\tat org.openqa.selenium.By$ById.findElement(By.java:188)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\r\n\tat OcusellPack.EditCollaborate.goto_view_collaborate_page(EditCollaborate.java:17)\r\n\tat ✽.Given Goto view collaborate page(ocusell.feature:38)\r\n",
+              "status": "failed"
             },
             "line": 38,
             "name": "Goto view collaborate page",
@@ -308,8 +304,7 @@
           },
           {
             "result": {
-              "duration": 16098105200,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 39,
             "name": "Edit contact and update",
@@ -320,8 +315,7 @@
           },
           {
             "result": {
-              "duration": 19518044400,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 40,
             "name": "Verify details are updated on the my collaborate page",
@@ -348,8 +342,9 @@
         "steps": [
           {
             "result": {
-              "duration": 6849103500,
-              "status": "passed"
+              "duration": 10264900,
+              "error_message": "org.openqa.selenium.NoSuchElementException: Unable to locate element: #clear_all\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:25:53\u0027\nSystem info: host: \u0027DESKTOP-QS30KNM\u0027, ip: \u0027192.168.0.10\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002715.0.1\u0027\nDriver info: org.openqa.selenium.firefox.FirefoxDriver\nCapabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 88.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20210504152106, moz:geckodriverVersion: 0.28.0, moz:headless: false, moz:processID: 1968, moz:profile: C:\\Users\\FE13264\\AppData\\Lo..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}\nSession ID: 1815a238-161e-4843-8120-6e36a90c0aef\n*** Element info: {Using\u003did, value\u003dclear_all}\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:64)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:372)\r\n\tat org.openqa.selenium.By$ById.findElement(By.java:188)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\r\n\tat OcusellPack.Collaborate.search_any_user_then_click_collaborate_link(Collaborate.java:20)\r\n\tat ✽.Given Search any user then click collaborate link(ocusell.feature:44)\r\n",
+              "status": "failed"
             },
             "line": 44,
             "name": "Search any user then click collaborate link",
@@ -360,8 +355,7 @@
           },
           {
             "result": {
-              "duration": 30057700,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 45,
             "name": "Verify firstname and lastname on the popup",
@@ -372,8 +366,7 @@
           },
           {
             "result": {
-              "duration": 20775902600,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 46,
             "name": "Assign listing if there",
@@ -384,8 +377,7 @@
           },
           {
             "result": {
-              "duration": 210400,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 47,
             "name": "Verify assigned listing is displayed on My collaborators page",
@@ -418,8 +410,9 @@
         "steps": [
           {
             "result": {
-              "duration": 5315076300,
-              "status": "passed"
+              "duration": 19318800,
+              "error_message": "org.openqa.selenium.NoSuchElementException: Unable to locate element: //div[@id\u003d\u0027sidebar-wrapper\u0027]/div/a[4]/span[2]\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:25:53\u0027\nSystem info: host: \u0027DESKTOP-QS30KNM\u0027, ip: \u0027192.168.0.10\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002715.0.1\u0027\nDriver info: org.openqa.selenium.firefox.FirefoxDriver\nCapabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 88.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20210504152106, moz:geckodriverVersion: 0.28.0, moz:headless: false, moz:processID: 1968, moz:profile: C:\\Users\\FE13264\\AppData\\Lo..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}\nSession ID: 1815a238-161e-4843-8120-6e36a90c0aef\n*** Element info: {Using\u003dxpath, value\u003d//div[@id\u003d\u0027sidebar-wrapper\u0027]/div/a[4]/span[2]}\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:64)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)\r\n\tat org.openqa.selenium.By$ByXPath.findElement(By.java:353)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\r\n\tat OcusellPack.Settings.goto_settings_page_and_verify_title(Settings.java:19)\r\n\tat ✽.Given Goto settings page and verify title(ocusell.feature:53)\r\n",
+              "status": "failed"
             },
             "line": 53,
             "name": "Goto settings page and verify title",
@@ -430,8 +423,7 @@
           },
           {
             "result": {
-              "duration": 14059500,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 54,
             "name": "verify list of options",
@@ -442,8 +434,7 @@
           },
           {
             "result": {
-              "duration": 10627848000,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 55,
             "name": "Verify all links are working",
@@ -470,8 +461,9 @@
         "steps": [
           {
             "result": {
-              "duration": 6227779700,
-              "status": "passed"
+              "duration": 40708500,
+              "error_message": "org.openqa.selenium.NoSuchElementException: Unable to locate element: .tab\\-list\\-account\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:25:53\u0027\nSystem info: host: \u0027DESKTOP-QS30KNM\u0027, ip: \u0027192.168.0.10\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002715.0.1\u0027\nDriver info: org.openqa.selenium.firefox.FirefoxDriver\nCapabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 88.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20210504152106, moz:geckodriverVersion: 0.28.0, moz:headless: false, moz:processID: 1968, moz:profile: C:\\Users\\FE13264\\AppData\\Lo..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}\nSession ID: 1815a238-161e-4843-8120-6e36a90c0aef\n*** Element info: {Using\u003dclass name, value\u003dtab-list-account}\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:64)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByClassName(RemoteWebDriver.java:412)\r\n\tat org.openqa.selenium.By$ByClassName.findElement(By.java:389)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\r\n\tat OcusellPack.AccountSettings.update_field(AccountSettings.java:17)\r\n\tat ✽.Given Update field(ocusell.feature:59)\r\n",
+              "status": "failed"
             },
             "line": 59,
             "name": "Update field",
@@ -482,8 +474,7 @@
           },
           {
             "result": {
-              "duration": 7625606600,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 60,
             "name": "Click update button",
@@ -494,8 +485,7 @@
           },
           {
             "result": {
-              "duration": 2049856100,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 61,
             "name": "Verify field is updated with recent data",
@@ -522,8 +512,9 @@
         "steps": [
           {
             "result": {
-              "duration": 4150704800,
-              "status": "passed"
+              "duration": 57995200,
+              "error_message": "org.openqa.selenium.NoSuchElementException: Unable to locate element: Photo\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:25:53\u0027\nSystem info: host: \u0027DESKTOP-QS30KNM\u0027, ip: \u0027192.168.0.10\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002715.0.1\u0027\nDriver info: org.openqa.selenium.firefox.FirefoxDriver\nCapabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 88.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20210504152106, moz:geckodriverVersion: 0.28.0, moz:headless: false, moz:processID: 1968, moz:profile: C:\\Users\\FE13264\\AppData\\Lo..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}\nSession ID: 1815a238-161e-4843-8120-6e36a90c0aef\n*** Element info: {Using\u003dpartial link text, value\u003dPhoto}\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:64)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByPartialLinkText(RemoteWebDriver.java:388)\r\n\tat org.openqa.selenium.By$ByPartialLinkText.findElement(By.java:250)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\r\n\tat OcusellPack.ChangePhoto.Open_Account_settings_screen(ChangePhoto.java:25)\r\n\tat ✽.Given Open Account settings screen(ocusell.feature:65)\r\n",
+              "status": "failed"
             },
             "line": 65,
             "name": "Open Account settings screen",
@@ -534,8 +525,7 @@
           },
           {
             "result": {
-              "duration": 282100,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 66,
             "name": "Click change photo button",
@@ -546,8 +536,7 @@
           },
           {
             "result": {
-              "duration": 243800,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 67,
             "name": "Upload photo",
@@ -574,8 +563,9 @@
         "steps": [
           {
             "result": {
-              "duration": 2438540600,
-              "status": "passed"
+              "duration": 4577029600,
+              "error_message": "org.openqa.selenium.NoSuchElementException: Unable to locate element: //*[@class\u003d\u0027modal-container reset-password\u0027]//h3\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:25:53\u0027\nSystem info: host: \u0027DESKTOP-QS30KNM\u0027, ip: \u0027192.168.0.10\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002715.0.1\u0027\nDriver info: org.openqa.selenium.firefox.FirefoxDriver\nCapabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 88.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20210504152106, moz:geckodriverVersion: 0.28.0, moz:headless: false, moz:processID: 1968, moz:profile: C:\\Users\\FE13264\\AppData\\Lo..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}\nSession ID: 1815a238-161e-4843-8120-6e36a90c0aef\n*** Element info: {Using\u003dxpath, value\u003d//*[@class\u003d\u0027modal-container reset-password\u0027]//h3}\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:64)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)\r\n\tat org.openqa.selenium.By$ByXPath.findElement(By.java:353)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\r\n\tat OcusellPack.ChangePassword.goto_Account_settings_page_and_open_check_password_popup(ChangePassword.java:19)\r\n\tat ✽.Given Goto Account settings page and open check password popup(ocusell.feature:71)\r\n",
+              "status": "failed"
             },
             "line": 71,
             "name": "Goto Account settings page and open check password popup",
@@ -586,8 +576,7 @@
           },
           {
             "result": {
-              "duration": 10871730500,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 72,
             "name": "Enter the password field",
@@ -598,8 +587,7 @@
           },
           {
             "result": {
-              "duration": 28210005800,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 73,
             "name": "Verify password updated are working correctly",
@@ -626,8 +614,9 @@
         "steps": [
           {
             "result": {
-              "duration": 2269278100,
-              "status": "passed"
+              "duration": 27942200,
+              "error_message": "org.openqa.selenium.NoSuchElementException: Unable to locate element: //*[@id\u003d\"navbarDropdown\"]/img\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:25:53\u0027\nSystem info: host: \u0027DESKTOP-QS30KNM\u0027, ip: \u0027192.168.0.10\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002715.0.1\u0027\nDriver info: org.openqa.selenium.firefox.FirefoxDriver\nCapabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 88.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20210504152106, moz:geckodriverVersion: 0.28.0, moz:headless: false, moz:processID: 1968, moz:profile: C:\\Users\\FE13264\\AppData\\Lo..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}\nSession ID: 1815a238-161e-4843-8120-6e36a90c0aef\n*** Element info: {Using\u003dxpath, value\u003d//*[@id\u003d\"navbarDropdown\"]/img}\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:64)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)\r\n\tat org.openqa.selenium.By$ByXPath.findElement(By.java:353)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\r\n\tat OcusellPack.NotificationBellSettings.click_notification_bell(NotificationBellSettings.java:15)\r\n\tat ✽.Given Click notification bell(ocusell.feature:77)\r\n",
+              "status": "failed"
             },
             "line": 77,
             "name": "Click notification bell",
@@ -638,8 +627,7 @@
           },
           {
             "result": {
-              "duration": 2044856300,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 78,
             "name": "Verify notification count on the dropdown",
@@ -650,8 +638,7 @@
           },
           {
             "result": {
-              "duration": 5081131400,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 79,
             "name": "Click notification settings icon on the right side of the dropdown",
@@ -662,8 +649,7 @@
           },
           {
             "result": {
-              "duration": 14130143400,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 80,
             "name": "Verify enable disable notification",
@@ -690,8 +676,9 @@
         "steps": [
           {
             "result": {
-              "duration": 2873093200,
-              "status": "passed"
+              "duration": 32465800,
+              "error_message": "org.openqa.selenium.NoSuchElementException: Unable to locate element: Payment\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:25:53\u0027\nSystem info: host: \u0027DESKTOP-QS30KNM\u0027, ip: \u0027192.168.0.10\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002715.0.1\u0027\nDriver info: org.openqa.selenium.firefox.FirefoxDriver\nCapabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 88.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20210504152106, moz:geckodriverVersion: 0.28.0, moz:headless: false, moz:processID: 1968, moz:profile: C:\\Users\\FE13264\\AppData\\Lo..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}\nSession ID: 1815a238-161e-4843-8120-6e36a90c0aef\n*** Element info: {Using\u003dpartial link text, value\u003dPayment}\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:64)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByPartialLinkText(RemoteWebDriver.java:388)\r\n\tat org.openqa.selenium.By$ByPartialLinkText.findElement(By.java:250)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\r\n\tat OcusellPack.PaymentSettings.goto_payment_settings_page(PaymentSettings.java:17)\r\n\tat ✽.Given Goto payment settings page(ocusell.feature:84)\r\n",
+              "status": "failed"
             },
             "line": 84,
             "name": "Goto payment settings page",
@@ -702,8 +689,7 @@
           },
           {
             "result": {
-              "duration": 5130728000,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 85,
             "name": "Verify current plan and verify cancel plan",
@@ -714,8 +700,7 @@
           },
           {
             "result": {
-              "duration": 20507277700,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 86,
             "name": "Verify change card",
@@ -785,8 +770,9 @@
         "steps": [
           {
             "result": {
-              "duration": 2288332900,
-              "status": "passed"
+              "duration": 16985600,
+              "error_message": "org.openqa.selenium.NoSuchElementException: Unable to locate element: //*[@id\u003d\"navbarDropdown\"]/img\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:25:53\u0027\nSystem info: host: \u0027DESKTOP-QS30KNM\u0027, ip: \u0027192.168.0.10\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002715.0.1\u0027\nDriver info: org.openqa.selenium.firefox.FirefoxDriver\nCapabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 88.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20210504152106, moz:geckodriverVersion: 0.28.0, moz:headless: false, moz:processID: 1968, moz:profile: C:\\Users\\FE13264\\AppData\\Lo..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}\nSession ID: 1815a238-161e-4843-8120-6e36a90c0aef\n*** Element info: {Using\u003dxpath, value\u003d//*[@id\u003d\"navbarDropdown\"]/img}\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:64)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)\r\n\tat org.openqa.selenium.By$ByXPath.findElement(By.java:353)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\r\n\tat OcusellPack.AllNotifications.goto_notification_bell_settings(AllNotifications.java:16)\r\n\tat ✽.Given Goto notification bell settings(ocusell.feature:96)\r\n",
+              "status": "failed"
             },
             "line": 96,
             "name": "Goto notification bell settings",
@@ -797,8 +783,7 @@
           },
           {
             "result": {
-              "duration": 3015141600,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 97,
             "name": "Click All notification from dropdown",
@@ -809,8 +794,7 @@
           },
           {
             "result": {
-              "duration": 2033410500,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 98,
             "name": "Verify older and latest notifications",
@@ -821,8 +805,7 @@
           },
           {
             "result": {
-              "duration": 5370141000,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 99,
             "name": "Click logout",
@@ -849,8 +832,9 @@
         "steps": [
           {
             "result": {
-              "duration": 10374148700,
-              "status": "passed"
+              "duration": 16708000,
+              "error_message": "org.openqa.selenium.NoSuchElementException: Unable to locate element: //*[@id\u003d\"navbarSupportedContent\"]/div/a[2]\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:25:53\u0027\nSystem info: host: \u0027DESKTOP-QS30KNM\u0027, ip: \u0027192.168.0.10\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002715.0.1\u0027\nDriver info: org.openqa.selenium.firefox.FirefoxDriver\nCapabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 88.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20210504152106, moz:geckodriverVersion: 0.28.0, moz:headless: false, moz:processID: 1968, moz:profile: C:\\Users\\FE13264\\AppData\\Lo..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}\nSession ID: 1815a238-161e-4843-8120-6e36a90c0aef\n*** Element info: {Using\u003dxpath, value\u003d//*[@id\u003d\"navbarSupportedContent\"]/div/a[2]}\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:64)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)\r\n\tat org.openqa.selenium.By$ByXPath.findElement(By.java:353)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\r\n\tat OcusellPack.Registration.goto_firststep_and_fill_everything(Registration.java:20)\r\n\tat ✽.Given Goto firststep and fill everything(ocusell.feature:103)\r\n",
+              "status": "failed"
             },
             "line": 103,
             "name": "Goto firststep and fill everything",
@@ -861,8 +845,7 @@
           },
           {
             "result": {
-              "duration": 7107030700,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 104,
             "name": "Choose pricing",
@@ -873,8 +856,7 @@
           },
           {
             "result": {
-              "duration": 14389803000,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 105,
             "name": "Enter card info then submit",
